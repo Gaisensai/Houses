@@ -1,0 +1,45 @@
+.error{
+    margin-top: 50px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #2E1CC4;
+    text-align: center;
+    align-items: center;
+}
+.errortext{
+    margin: 0;
+    font-weight: 300;
+    color: #2E1CC4;
+    padding: 5px;
+}
+.errorbuttontext{
+    margin: 0;
+    font-weight: 300;
+    color: white;
+    padding: 5px;
+}
+.erroricon{
+    width: 50px;
+    height: 50px;
+}
+#root > div > div.home.col-sm-12.col-lg-10 > div.row > div.error > span > svg{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+.errorbutton{
+    background-color: #2e1cc4 !important;
+    width: 200px;
+    border-radius: 3px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: none;
+    margin-top: 5px;
+}
+.anticon svg {
+    fill: gray;
+    height: 38px;
+    width: 38px;
+}
